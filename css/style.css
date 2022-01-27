@@ -326,7 +326,12 @@ a.btts {
 
   width: 75%;
 }
-
+.button2 {
+  text-align: right;
+  margin-left: -23px;
+  margin-top: 50px;
+  width: auto;
+}
 /**************************/
 /* CTA SECTION */
 /**************************/
