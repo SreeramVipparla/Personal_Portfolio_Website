@@ -319,18 +319,18 @@ a.btts {
 
 .section-Contacts {
   padding: 9.6rem 0;
+  image-resolution: left;
+  align-items: lef;
 }
-
-.Contacts-plan {
+.section-Contacts .contacts .Contacts-plan {
   border-radius: 11px;
 
   width: 75%;
 }
 .button2 {
-  text-align: right;
-  margin-left: -23px;
+  margin-right: 350px;
   margin-top: 50px;
-  width: auto;
+  display: block;
 }
 /**************************/
 /* CTA SECTION */
