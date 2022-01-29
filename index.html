@@ -1,276 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="This is my personal portfolio website"
-    />
-
-    <!-- Always include this line of code!!! -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/queries.css" />
-
-
-    <script defer src="js/script.js"></script>
-
-    <title>Vipparla Sreeram</title>
-  </head>
-  <body>
-    <header class="header">
-      <a href="#">
-        <img class="logo" alt="sreeram-name" src="img/bg_bggenerator_com.jpg"width="250" height="10000" />
-      </a>
-
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#Home">Home</a></li>
-          <li><a class="main-nav-link" href="#MyHobbies">My Hobbies</a></li>
-          <li>
-            <a class="main-nav-link" href="#Skills">Skills</a>
-          </li>
-          <li><a class="main-nav-link" href="#Contacts">Contacts</a></li>
-        </ul>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+         name="description"
+         content="This is my personal portfolio website"
+         />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="stylesheet" href="css/style.css" />
+      <script defer src="js/script.js"></script>
+      <title>Vipparla Sreeram</title>
+   </head>
+   <body>
+      <div class="scroll-up-btn">
+         <i class="fas fa-angle-up"></i>
+      </div>
+      <nav class="navbar">
+         <div class="max-width">
+            <div class="logo"><a href="#"><span>Sreeram Vipparla</span></a></div>
+            <ul class="menu">
+               <li><a href="#Home" class="nav-btn">Home</a></li>
+               <li><a href="#MyHobbies" class="nav-btn">My Hobbies</a></li>
+               <li><a href="#Skills" class="nav-btn">Skills</a></li>
+               <li><a href="#Contacts" class="nav-btn">Contacts</a></li>
+            </ul>
+            <div class="nav-btn">
+               <i class="fas fa-bars"></i>
+            </div>
+         </div>
       </nav>
-
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="intro-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
-    </header>
-
-    <main>
-
-
+      <main>
       <section class="section-Home" id="Home">
-        <div class="container">
-          <span class="subheading">Home</span>
-          <h2 class="heading-secondary">
-            About Me
-          </h2>
-          
-        </div>
-
-        <div class="container grid grid--2-cols grid--center-v">
-          <div class="step-text-box">
-            
+         <div class="container">
+            <span class="subheading">Home</span>
+            <h2 class="heading-secondary">
+               About Me
+            </h2>
+         </div>
+         <div class="container grid grid--2-cols grid--center-v">
+         <div class="step-text-box">
             <p class="step-description">
-             I am <b>Sreeram Vipparla</b>, pursuing Computer Science and Engineering with specialization in Artificial Intelligence from NSUT, Delhi.
+               I am <b>Sreeram Vipparla</b>, pursuing Computer Science and Engineering with specialization in Artificial Intelligence from NSUT, Delhi.
             </p>
             <p class="step-description">I am passionate about finding clean and creative solutions to all kind of problems.</p>
             <p class="step-description">My current interests include Data Structures and Algorithms, Data Science, Artificial Intelligence and Deep Learning.</p>
             <p class="step-description">I love participating in Open Source Events throughout the world and contributing to organizations.</p>
-          </div>
-          <div class="step-img-box">
+         </div>
+         <div class="step-img-box">
             <img
-              src="img/Profile Pic-9.jpg"
-              class="step-img"
-              alt="image"
-            />
-          </div>
-          <div class="button">
-            <a href="#MyHobbies" class="btts" id="hob">My Hobbies</a>
-            <a href="#Skills" class="btts" id="sklls">Skills</a>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="section-MyHobbies" id="MyHobbies">
-        <div class="container center-text">
-          <span class="subheading">My Hobbies</span>
-          <h2 class="heading-secondary">
-            My hobbies are: 
-          </h2>
-        </div>
-
-        <div class="container grid grid--3-cols margin-bottom-md">
-          <div class="meal">
-            <img
-              src="img/cricket.jpg"
-              class="meal-img"
-              alt="cricket"
-            />
-            <div class="meal-content">
-              
-              <p class="meal-title">Cricket</p>
-
-            </div>
-          </div>
-
-          <div class="meal">
-            <img
-              src="img/chess.jpg"
-              class="meal-img"
-              alt="chess"
-            />
-            <div class="meal-content">
-              <p class="meal-title">Chess</p>
-
-            </div>
-          </div>
-
-          <div class="meal">
-            <img
-              src="img/karate.png"
-              class="meal-img"
-              alt="karate"
-            />
-            <div class="meal-content">
-
-              <p class="meal-title">Karate</p>
-
-            </div>
-          </div>
-          <div class="meal">
-            <img
-              src="img/reading.jpeg"
-              class="meal-img"
-              alt="Reading"
-            />
-            <div class="meal-content">
-
-              <p class="meal-title">Reading</p>
-
-            </div>
-          </div>
-
-
-      </section>
-
-      <section class="section-Skills" id="Skills">
-        <div class="Skills-container">
-          <span class="subheading">Skills</span>
-          <h2 class="heading-secondary">Progress Bar</h2>
-<h1>I am proficient in C++, Python, Java, JavaScript, Data Structures & Algorithms with a good knowledge of Object Oriented Programming. I have in-depth knowledge and core competencies in the field of Web Development. I have also developed multiple projects on these fields.</h1>
-<p></p>
-<div class="Skills">
-  <div class="progress__fill"></div>
-  <span class="progress__text"></span>
-
-
-<div class="Skills">
-            <label for="file"><b>C++</b></label>
-<progress id="file" value="85" max="100"> 100% </progress>
-<label for="file"><b> Python</b></label>
-<progress id="file" value="90" max="100"> 90% </progress>
-<label for="file"><b>Java</b></label>
-<progress id="file" value="90" max="100"> 90% </progress>
-<label for="file"><b> JavaScript</b></label>
-<progress id="file" value="90" max="100"> 90% </progress>
-<label for="file"><b> Data Structures & Algorithms</b></label>
-<progress id="file" value="90" max="100">90% </progress>
-<label for="file"><b> HTML</b></label>
-<progress id="file" value="90" max="100"> 90% </progress>
-<label for="file"><b> CSS</b></label>
-<progress id="file" value="90" max="100">90% </progress>
-
-</div>
-<div class="gallery">
-  </figure>
-  <figure class="gallery-item">
-    <img src="img/python.png"
-
-    />
-  </figure>
-  <figure class="gallery-item">
-    <img
-      src="img/c++.png"
-      alt="Photo of beautifully
-    arranged food"
-    />
-  </figure>
-  <figure class="gallery-item">
-    <img
-      src="img/java.png"
-      alt="Photo of beautifully
-    arranged food"
-    />
-  </figure>
-  <figure class="gallery-item">
-    <img
-      src="img/html.png"
-      alt="Photo of beautifully
-    arranged food"
-    />
-  </figure>
-  <figure class="gallery-item">
-    <img
-      src="img/css.png"
-      alt="Photo of beautifully
-    arranged food"
-    />
-  </figure>
-  <figure class="gallery-item">
-    <img
-      src="img/javascript.png"
-      alt="Photo of beautifully
-    arranged food"
-    />
-  </figure>
-</div>
-      </section>
-
-      <section class="section-Contacts" id="Contacts">
-        <div class="container">
-          <span class="subheading">Contacts</span>
-          <h2 class="heading-secondary">
-            Contact Me!
-          </h2>
-          <img src="img/Profile Pic-4.jpg" width="250" height="250" >
-
-          <div class="button2">
-              <style>
-                .abc{
-                background-color: white;
-                border: 2px solid black;
-                color: green;
-                padding: 5px 10px;
-                
-                display: inline-block;
-                font-size: 20px;
-                margin: 10px 30px;
-                cursor: pointer;
-                }
-            </style>              
-            <form action="https://github.com/SreeramVipparla">
-                <button class = "abc" type="submit">
-                    Github
-                </button>
+               src="images/profile_pictures/Profile_Pic.png"
+               class="step-img"
+               alt="image"
+               />
+         </div>
+         <div class="button">
+            <style>
+               .abc{
+               background-color: rgb(29, 26, 26);
+               border: 2px solid rgb(250, 224, 224);
+               color: rgb(255, 255, 255);
+               padding: 5px 10px;
+               display: inline-block;
+               font-size: 20px;
+               margin: 10px 30px;
+               cursor: pointer;
+               }
+            </style>
+            <form action="#MyHobbies">
+               <button class = "abc" type="submit">
+               My Hobbies
+               </button>
             </form>
-    
-            <form action="https://www.linkedin.com/in/sreeram-vipparla/">
-              <button class = "abc" type="submit">
-                Linkedin
-              </button>
-          </form>
-          <form action="https://leetcode.com/Sreeram_Vipparla/">
-            <button class = "abc" type="submit">
-              LeetCode
-            </button>
-        </form>
-          </form>
-
-          </div>
+            <form action="#Skills">
+               <button class = "abc" type="submit">
+               Skills
+               </button>
+            </form>
+         </div>
       </section>
-
-    <footer class="footer">
+      <section class="section-MyHobbies" id="MyHobbies">
+         <div class="container center-text">
+            <span class="subheading">My Hobbies</span>
+            <h2 class="heading-secondary">
+               My hobbies are: 
+            </h2>
+         </div>
+         <div class="container grid grid--3-cols margin-bottom-md">
+         <div class="hobby">
+            <img
+               src="images/hobbies/cricket.jpg"
+               class="hobbies-img"
+               alt="cricket"
+               />
+            <div class="content">
+               <p class="hobby-name">Cricket</p>
+            </div>
+         </div>
+         <div class="hobby">
+            <img
+               src="images/hobbies/chess.jpg"
+               class="hobbies-img"
+               alt="chess"
+               />
+            <div class="content">
+               <p class="hobby-name">Chess</p>
+            </div>
+         </div>
+         <div class="hobby">
+            <img
+               src="images/hobbies/karate.png"
+               class="hobbies-img"
+               alt="karate"
+               />
+            <div class="content">
+               <p class="hobby-name">Karate</p>
+            </div>
+         </div>
+         <div class="hobby">
+            <img
+               src="images/hobbies/reading.jpeg"
+               class="hobbies-img"
+               alt="Reading"
+               />
+            <div class="content">
+               <p class="hobby-name">Reading</p>
+            </div>
+         </div>
+      </section>
+      <section class="section-Skills" id="Skills">
+         <div class="Skills-container">
+            <span class="subheading">Skills</span>
+            <h2 class="heading-secondary">Progress Bar</h2>
+            <div class="skill-list">
+               <div class="skill_item">
+                  <h3 class="h-3">Googling <span class="counter">80</span>%</h3>
+                  <div class="progress_br">
+                     <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill_item">
+               <h3 class="h-3">Python <span class="counter">70</span>%</h3>
+               <div class="progress_br">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill_item">
+               <h3 class="h-3">C++ <span class="counter">50</span>%</h3>
+               <div class="progress_br">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill_item">
+               <h3 class="h-3">JAVA <span class="counter">50</span>%</h3>
+               <div class="progress_br">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill_item">
+               <h3 class="h-3">HTML <span class="counter">80</span>%</h3>
+               <div class="progress_br">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill_item">
+               <h3 class="h-3">CSS <span class="counter">80</span>%</h3>
+               <div class="progress_br">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="skill_item">
+               <h3 class="h-3">JavaScript <span class="counter">50</span>%</h3>
+               <div class="progress_br">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="gap"></div>
+      </section>
+      <section class="section-Contacts" id="Contacts">
+         <div class="container">
+            <span class="subheading">Contacts</span>
+            <h2 class="heading-secondary">
+               Contact Me!
+            </h2>
+            <img src="images/profile_pictures/Profile Pic2.png" width="250" height="250" >
+            <div class="button2">
+               <style>
+                  .links{
+                  background-color: white;
+                  border: 2px solid black;
+                  color: green;
+                  padding: 5px 10px;
+                  display: inline-block;
+                  font-size: 20px;
+                  margin: 10px 30px;
+                  cursor: pointer;
+                  }
+               </style>
+               <form action="https://github.com/SreeramVipparla">
+                  <button class = "links" type="submit">
+                  Github
+                  </button>
+               </form>
+               <form action="https://www.linkedin.com/in/sreeram-vipparla/">
+                  <button class = "links" type="submit">
+                  Linkedin
+                  </button>
+               </form>
+            </div>
+      </section>
+      <footer class="footer">
       <div class="container grid grid--footer">
-        
-
-          <p class="copyright">
-            Copyright &copy; <span class="year">2022</span> by Vipparla Sreeram.
-          </p>
-        </div>
+      <p class="copyright">
+      Copyright &copy; <span class="year">2022</span> by Sreeram Vipparla.
+      </p>
       </div>
-    </footer>
-  </body>
+      </div>
+      </footer>
+   </body>
 </html>
